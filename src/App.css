@@ -1,0 +1,15 @@
+@import './styles/var.css';
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  color: var(--)
+}
+
+header{
+  background-color:var(--principal-color) ;
+}
+nav ul{
+   background-color:var(--principal-color) ;
+}

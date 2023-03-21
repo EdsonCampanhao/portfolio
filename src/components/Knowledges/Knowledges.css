@@ -1,0 +1,27 @@
+.knowledges{
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.knowledges article{
+    width: 130px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--principal-color);
+    border-bottom: 2px solid  rgba(0,0,255,0.6628851369649422);
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px black;
+    color:  rgba(0,0,255,0.6628851369649422) ;
+    transition: 1s;
+}
+.knowledges article:hover{
+
+    transform:scale(1.2);
+    transition: 1s;
+
+}
