@@ -1,7 +1,7 @@
 .themeButton{
     z-index: 2;
     display: flex;
-    background-color: rgb(236, 105, 212);
+    background-color: rgb(207, 204, 207);
     height: 5px;
     width: 50px;
     align-items: center;
@@ -14,14 +14,14 @@
     z-index: -1;
     height: 20px;
     width: 20px;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     position: absolute;
     left: -1px;
-    transition: 1s;
+    transition: 0.6s;
 }
 .selectedTheme.on{
     left: 64%;
     
-    transition: 1s;
+    transition: 0.6s;
 }
