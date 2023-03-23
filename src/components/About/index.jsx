@@ -18,8 +18,9 @@ const About = () => {
                     <h2>Olá, eu sou o Edson Gabryel!</h2>
                     <p>Desenvolvedor Front-End</p>
 
-                    <a href='google.com'>
+                    <a href='https://google.com'>
                     <Button  className='button' variant="contained" >
+                        
                         baixar currículo
                     </Button></a>
                     <Button className='button' variant="outlined" >
