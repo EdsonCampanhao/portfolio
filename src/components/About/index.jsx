@@ -17,9 +17,11 @@ const About = () => {
                 <div className='buttons'>
                     <h2>Olá, eu sou o Edson Gabryel!</h2>
                     <p>Desenvolvedor Front-End</p>
-                    <Button className='button' variant="contained" >
+
+                    <a href='google.com'>
+                    <Button  className='button' variant="contained" >
                         baixar currículo
-                    </Button>
+                    </Button></a>
                     <Button className='button' variant="outlined" >
                         entrar em contato
                     </Button>
