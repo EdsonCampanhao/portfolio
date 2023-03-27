@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(117, 117, 119);
+    gap: 12px;
+    align-items: center;
+    margin: 50px 0;
+    padding: 50px;
+    font-size: 24px;
+    color: azure;
+}
+.footer__icons{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
