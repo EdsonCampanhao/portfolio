@@ -38,8 +38,6 @@ const Projects = () => {
   return (
     <section className='projects'>
       <h2> Projetos em destaque! </h2>
-
-
       {
         projects.map(project =>
           <ImgMediaCard
@@ -53,10 +51,7 @@ const Projects = () => {
           />
         )
       }
-
-
     </section>
   )
 }
-
 export default Projects
