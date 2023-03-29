@@ -1,12 +1,17 @@
 .card {
     width: 250px;
 }
+.card:hover{
+    transition: .7s;
+    transform:translateY(-20px);
+}
 .card__image{
     background-size: cover;
     padding: 2px;
     border-radius: 10px 10px 0 0;
 }
 .card__actions {
+   fill: aliceblue;
     justify-content: center;
     gap: 24px;
 }

@@ -28,8 +28,8 @@ export default function ImgMediaCard(props) {
                 </Typography>
             </CardContent>
             <CardActions className='card__actions'>
-                <a href="google.com">  <AiFillGithub size={32} /></a>
-                <a href=""><AiFillEye size={32} /></a>
+                <a href={props.repo}>  <AiFillGithub size={32} fill='#3f90b9'/></a>
+                <a href={props.app}><AiFillEye size={32} fill='#3f90b9' /></a>
 
             </CardActions>
         </Card>

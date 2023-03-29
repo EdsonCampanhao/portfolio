@@ -5,7 +5,8 @@
     margin-top: 50px;
     gap: 24px;
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(47,78,205,1) 35%, rgba(10,29,208,1) 100%);}
+    background: var(--gray-degrade)
+}
     @media screen and (min-width:700px){
     .projects h2{
         width: 100%;

@@ -20,7 +20,7 @@
     max-width: 50%;
     border-radius: 67% 33% 62% 38% / 48% 61% 39% 52% ;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 13%, rgba(0,0,255,0.6628851369649422) 100%, rgba(0,212,255,1) 100%);
+    background:var(--degrade)
 }
 .buttons{
     padding:  12px 0;
