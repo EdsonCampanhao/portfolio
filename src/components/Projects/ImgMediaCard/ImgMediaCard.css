@@ -1,5 +1,6 @@
 .card {
     width: 250px;
+    height: 370px;
 }
 .card:hover{
     transition: .7s;

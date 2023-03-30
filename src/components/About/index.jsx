@@ -19,11 +19,11 @@ const About = () => {
                     <p>Desenvolvedor Front-End</p>
 
                     <a href='https://google.com'>
-                    <Button  className='button' variant="contained" >
+                    <Button  className='button__cv' variant="contained" >
                         
                         baixar currículo
                     </Button></a>
-                    <Button className='button' variant="outlined" >
+                    <Button className='button' id='button__contact' variant="outlined" >
                         entrar em contato
                     </Button>
                 </div>

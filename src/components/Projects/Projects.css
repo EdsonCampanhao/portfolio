@@ -2,10 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    padding-top: 50px;
     gap: 24px;
-    background: rgb(255,255,255);
-    background: var(--gray-degrade)
+    background: var(--degrade)
 }
     @media screen and (min-width:700px){
     .projects h2{

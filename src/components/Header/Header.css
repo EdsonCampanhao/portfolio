@@ -3,7 +3,7 @@
     transition: 1s;
 }
 .header{
-    background-color: var(--degrade);
+    background-color: var(--principal-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
