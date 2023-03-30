@@ -26,7 +26,7 @@
 }
 
 .knowledges article:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 1s;
 }
 .knowledges .button{
@@ -41,7 +41,7 @@
 }
 .knowledges .button:hover{
     transition: .7s;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 @media screen and (min-width:1024px) {
 

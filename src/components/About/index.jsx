@@ -5,6 +5,9 @@ import './About.css'
 import profile from './profile.png'
 
 const About = () => {
+
+   
+
     return (
 
         <section className='about'>
@@ -38,6 +41,8 @@ const About = () => {
 
 
     )
+
+    
 }
 
 export default About

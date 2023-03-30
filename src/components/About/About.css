@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--secundary-color);
+  
 }
 .about__profile{
     display: flex;
@@ -13,14 +14,16 @@
 }
 .about img{
     max-width: 100%;
-    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 30px;
 }
 .about .img{
     display: flex;
     justify-content: center;
+    overflow: hidden;
     max-width: 50%;
     border-radius: 67% 33% 62% 38% / 48% 61% 39% 52% ;
-    background: rgb(2,0,36);
     background:var(--principal-color)
 }
 .buttons{
@@ -37,7 +40,7 @@
 }
 #button__contact:hover{
     transition: .7s;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
  .about .button__cv{
     background-color: var(--principal-color);
@@ -53,6 +56,9 @@
 
  }
 @media screen and (min-width:700px) {
+    .about img{
+        left: 45px;
+    }
     .about__profile{
         flex-direction: row-reverse;
         max-width: 1024px;

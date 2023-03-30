@@ -17,7 +17,6 @@ const Header = (props) => {
     const changeTheme=()=>{
         const selector=document.querySelector('.selectedTheme');
         selector.classList.toggle('on')
-       
     }
 
     return (

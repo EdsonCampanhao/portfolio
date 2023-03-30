@@ -22,7 +22,7 @@ padding: 8px;
 transition: .7s;
 }
 .button__toDirectory h1:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: .7s;
 }
 
