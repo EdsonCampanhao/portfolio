@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px;
     gap: 24px;
-    background: var(--degrade)
 }
 .button__toDirectory{
+   
     padding-top: 20px;
     width: 100%;
     display: flex;

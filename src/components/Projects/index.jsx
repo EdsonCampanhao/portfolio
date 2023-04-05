@@ -27,8 +27,8 @@ const Projects = () => {
           />
         )
       }
-      <div className='button__toDirectory'>
-        <a href="https://github.com/EdsonCampanhao?tab=repositories"><h1>ver mais projetos <GoFileSymlinkDirectory size={32} /></h1> </a>
+      <div className='button__toDirectory' >
+        <a style={{color:'currentColor'}} href="https://github.com/EdsonCampanhao?tab=repositories"><h1>ver mais projetos <GoFileSymlinkDirectory size={32} /></h1> </a>
       </div>
     </section>
   )
