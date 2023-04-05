@@ -1,41 +1,17 @@
-import About from 'components/About';
-import 'components/Header';
-import Header from 'components/Header';
-import Knowledges from 'components/Knowledges';
-import Projects from 'components/Projects';
-import Footer from 'components/Footer';
-import './App.css';
-import { useState } from 'react';
-import { colors } from '@mui/material';
+
+import Home from './pages/Home';
+import {Routes, Route } from 'react-router-dom';
+
 
 function App() {
 
-  const [atualTheme, setAtualTheme] = useState('black');
-  const [atualColor, setAtualColor] = useState('white')
-
   return (
     <div className="App">
-      <header>
-        <Header changeAtualTheme={(theme, color) => {
-          setAtualTheme(theme);
-          setAtualColor(color)
-        }
-        }
-
-        />
-      </header>
-      <main style={{
-        backgroundColor: atualTheme,
-        color: atualColor
-      }}>
-        <About />
-        <Knowledges />
-        <Projects />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-
+       
+          <Routes>
+            <Route path='/' element={<Home />} />
+          </Routes>
+       
     </div>
   );
 }

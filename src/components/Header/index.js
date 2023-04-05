@@ -7,7 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 
 const Header = (props) => {
 
-    const options = ['Sobre', 'Habilidades', 'Projetos', 'Contatos']
+    const options = ['Habilidades', 'Projetos', 'Contatos']
 
     const openMenu = () => {
         const buttons = document.querySelectorAll('.button')
@@ -21,8 +21,8 @@ const Header = (props) => {
         selector.classList.toggle('on');
 
         document.querySelector('.selectedTheme').classList.contains('on') ?
-            props.changeAtualTheme('white','black') :
-            props.changeAtualTheme('black','white')
+            props.changeAtualTheme('none','black') :
+            props.changeAtualTheme('linear-gradient(180deg, rgba(27,27,30,1) 37%, rgba(63,144,185,1) 90%, rgba(63,144,185,1) 100%)','white')
 
     }
 
@@ -36,7 +36,7 @@ const Header = (props) => {
                 </div>
                 <nav className='menu__options'>
                     <ul>
-                        {options.map((item, index) => <a key={index} href={'/'}><li key={index}>{item}</li></a>)}
+                        {options.map((item, index) => <a key={index} href={`#${item}`}><li key={index}>{item}</li></a>)}
                     </ul>
                 </nav>
             </div>

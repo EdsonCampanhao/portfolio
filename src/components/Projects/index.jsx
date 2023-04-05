@@ -12,7 +12,7 @@ const Projects = () => {
 
 
   return (
-    <section className='projects'>
+    <section id='Projetos' className='projects'>
       <h2> Projetos em destaque! </h2>
       {
         projects.map(project =>

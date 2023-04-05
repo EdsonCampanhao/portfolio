@@ -4,7 +4,7 @@ import {AiOutlineMail,AiFillGithub,AiFillLinkedin,AiOutlineWhatsApp} from 'react
 
 const Footer = () => {
   return (
-    <section className='footer'>
+    <section id='Contatos' className='footer'>
         <h2>contatos</h2>
         <address> Rio de Janeiro, São gonçalo</address>
         <div className="footer__icons">
