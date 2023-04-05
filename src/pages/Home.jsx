@@ -8,7 +8,7 @@ import '../App.css';
 import { useState } from 'react';
 
 function Home() {
-    const [atualTheme, setAtualTheme] = useState('black');
+    const [atualTheme, setAtualTheme] = useState('linear-gradient(180deg, rgba(27,27,30,1) 37%, rgba(63,144,185,1) 90%, rgba(63,144,185,1) 100%)');
     const [atualColor, setAtualColor] = useState('white')
 
     return (
