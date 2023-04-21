@@ -6,7 +6,7 @@ import profile from './profile.png'
 
 const About = () => {
 
-   
+
 
     return (
 
@@ -22,19 +22,24 @@ const About = () => {
                     <p>Desenvolvedor Front-End</p>
 
                     <a href='https://google.com'>
-                    <Button  className='button__cv' variant="contained" >
-                        
-                        baixar currículo
-                    </Button></a>
-                    <Button className='button' id='button__contact' variant="outlined" >
-                        entrar em contato
-                    </Button>
+                        <Button className='button__cv' variant="contained" >
+
+                            baixar currículo
+                        </Button></a>
+                    <a href="https://wa.me/5521976202876">
+                        <Button className='button' id='button__contact' variant="outlined" >
+                            entrar em contato
+                        </Button>
+                    </a>
                 </div>
             </div>
 
             <div className="about__text">
                 <h2 className='title'>Sobre mim</h2>
-                <p className="text">Desenvolvedor Front-end com experiência em React.js, Next.js, Redux, JavaScript, TypeScript, Styled Components, Material UI e consumo de APIs REST. Apaixonado pelo desenvolvimento de componentes reutilizáveis. Também possui experiência em projetos gerenciados por Metodologias Ágeis. Formado em Sistemas de Informação e cursando Especialização em Front-End na Digital House Brasil.</p>
+                <p className="text">Sou desenvolvedor Front-end e o meu foco no momento é trazer as  
+                pequenas empresas para o mundo dígital dando oportunidade para que usufruam dos recurços que a web proporciona para agregar, principalmente na captação 
+                e fidelização de clientes, tudo isso por um preço acessível e justo.
+                Trabalho com as seguintes tecnologias: HTML, CSS, JS e React. </p>
             </div>
         </section>
 
@@ -42,7 +47,7 @@ const About = () => {
 
     )
 
-    
+
 }
 
 export default About
