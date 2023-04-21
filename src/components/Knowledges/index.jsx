@@ -5,7 +5,7 @@ import icons from './icons.js'
 
 const Knowledges = () => {
     return (
-        <section className='knowledges'>
+        <section id='Habilidades' className='knowledges'>
             {icons.map(icon =>
                 <article key={icon.name}>
                     <p>{icon.name}</p>

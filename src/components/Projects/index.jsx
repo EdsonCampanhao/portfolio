@@ -12,7 +12,7 @@ const Projects = () => {
 
 
   return (
-    <section className='projects'>
+    <section id='Projetos' className='projects'>
       <h2> Projetos em destaque! </h2>
       {
         projects.map(project =>
@@ -27,8 +27,8 @@ const Projects = () => {
           />
         )
       }
-      <div className='button__toDirectory'>
-        <a href="https://github.com/EdsonCampanhao?tab=repositories"><h1>ver mais projetos <GoFileSymlinkDirectory size={32} /></h1> </a>
+      <div className='button__toDirectory' >
+        <a style={{color:'currentColor'}} href="https://github.com/EdsonCampanhao?tab=repositories"><h1>ver mais projetos <GoFileSymlinkDirectory size={32} /></h1> </a>
       </div>
     </section>
   )
