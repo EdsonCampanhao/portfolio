@@ -13,7 +13,7 @@ const Knowledges = () => {
                 </article>)}
 
             <section className='button'>
-               <a href="https://cursos.alura.com.br/user/edsonlemos0525/fullCertificate/2323bcd680e7db8a229f724efe88a94e"><Button id='more__courses' variant="outlined">ver cursos concluídos</Button></a> 
+               <a target='_blank' href="https://cursos.alura.com.br/user/edsonlemos0525/fullCertificate/2323bcd680e7db8a229f724efe88a94e"><Button id='more__courses' variant="outlined">ver cursos concluídos</Button></a> 
             </section>
 
         </section>

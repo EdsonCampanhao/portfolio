@@ -33,8 +33,8 @@ const projects = [
         'image': aluraBook,
         'title': 'AluraBook',
         'content': 'Projeto realizado em um curso da Alura para práticar utilização de api externa e posicionamento com display flex. tecnologias usadas:js, css e html  ',
-        'repo':'',
-        'app':''
+        'repo':'https://github.com/EdsonCampanhao/AluraBook',
+        'app':'https://edsoncampanhao.github.io/AluraBook/'
     },
 
 ]

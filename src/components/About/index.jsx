@@ -21,12 +21,12 @@ const About = () => {
                     <h2>Olá, eu sou o Edson Gabryel!</h2>
                     <p>Desenvolvedor Front-End</p>
 
-                    <a href='https://google.com'>
+                    <a href='https://drive.google.com/file/d/1Od9U-UHkQvNjRSEbIt9SvBODT8Xz0qlN/view?usp=sharing' target="_blank">
                         <Button className='button__cv' variant="contained" >
 
                             baixar currículo
                         </Button></a>
-                    <a href="https://wa.me/5521976202876">
+                    <a href="https://wa.me/5521976202876" target="_blank">
                         <Button className='button' id='button__contact' variant="outlined" >
                             entrar em contato
                         </Button>
